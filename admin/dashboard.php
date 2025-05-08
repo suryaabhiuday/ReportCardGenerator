@@ -76,9 +76,27 @@ $subjects = $stmt->fetchAll();
                     <!-- Students Tab -->
                     <div class="tab-pane fade show active" id="students">
                         <h2>Manage Students</h2>
-                        <button class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#addStudentModal">
-                            Add New Student
-                        </button>
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <h5 class="mb-0">Quick Actions</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-grid gap-2">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addStudentModal">
+                                        <i class="fas fa-user-plus"></i> Add New Student
+                                    </button>
+                                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addSubjectModal">
+                                        <i class="fas fa-book"></i> Add New Subject
+                                    </button>
+                                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#addMarksModal">
+                                        <i class="fas fa-chart-bar"></i> Add Marks
+                                    </button>
+                                    <a href="import/import.php" class="btn btn-warning">
+                                        <i class="fas fa-file-import"></i> Import Data
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                         <div class="table-responsive">
                             <table class="table table-striped">
                                 <thead>
@@ -111,9 +129,27 @@ $subjects = $stmt->fetchAll();
                     <!-- Subjects Tab -->
                     <div class="tab-pane fade" id="subjects">
                         <h2>Manage Subjects</h2>
-                        <button class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#addSubjectModal">
-                            Add New Subject
-                        </button>
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <h5 class="mb-0">Quick Actions</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-grid gap-2">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addStudentModal">
+                                        <i class="fas fa-user-plus"></i> Add New Student
+                                    </button>
+                                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addSubjectModal">
+                                        <i class="fas fa-book"></i> Add New Subject
+                                    </button>
+                                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#addMarksModal">
+                                        <i class="fas fa-chart-bar"></i> Add Marks
+                                    </button>
+                                    <a href="import/import.php" class="btn btn-warning">
+                                        <i class="fas fa-file-import"></i> Import Data
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                         <div class="table-responsive">
                             <table class="table table-striped">
                                 <thead>
@@ -142,9 +178,27 @@ $subjects = $stmt->fetchAll();
                     <!-- Marks Tab -->
                     <div class="tab-pane fade" id="marks">
                         <h2>Manage Marks</h2>
-                        <button class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#addMarksModal">
-                            Add New Marks
-                        </button>
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <h5 class="mb-0">Quick Actions</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="d-grid gap-2">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addStudentModal">
+                                        <i class="fas fa-user-plus"></i> Add New Student
+                                    </button>
+                                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addSubjectModal">
+                                        <i class="fas fa-book"></i> Add New Subject
+                                    </button>
+                                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#addMarksModal">
+                                        <i class="fas fa-chart-bar"></i> Add Marks
+                                    </button>
+                                    <a href="import/import.php" class="btn btn-warning">
+                                        <i class="fas fa-file-import"></i> Import Data
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                         <div class="table-responsive">
                             <table class="table table-striped">
                                 <thead>

@@ -1,5 +1,6 @@
 # Dependencies
 /vendor/
+composer.lock
 
 # Environment files
 .env
@@ -27,10 +28,14 @@ logs/
 error_log
 access_log
 
-# Cache files
-*.cache
+# Temporary files
 *.tmp
 *.temp
+*.swp
+*~
+
+# Cache files
+*.cache
 
 # XAMPP specific
 /xampp/
